@@ -1,0 +1,134 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+  }
+   .primary-highlight
+   {
+    color:green;
+   }
+   .pb-4{
+    color:orange;
+   }
+   .pb-4{
+    font-size: medium;
+    font-weight: bold;
+    text-align: left;
+   }
+   .pb-5{
+    font-weight: bold;
+
+   }
+
+.navbar-brand img {
+    height: 59px;
+    width: 194px;
+  }
+  #main-nav {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: #F0FFF0;
+  }
+  #main-nav .navbar-toggler {
+    padding: 12px;
+    font-size: 0.75rem;
+    color: var(--white-color);
+    text-transform: uppercase;
+    background-color: #333;
+    border: 0;
+    border-radius: 5px;
+  }  
+  .container{
+    background-color: #F0FFF0;
+    margin-bottom: 60px;
+  }
+  .btn-primary {
+    background-color: var(blue);
+   
+    border-radius: 33px;
+    padding: 12px 36px;
+    font-size: 1rem;
+    line-height: 1.19rem;
+  }
+  .btn-primary:hover,
+.btn-primary:focus {
+  background-color: var(skyblue);
+  opacity: 0.9;
+}
+.btn-primary:not(:disabled):not(.disabled):active {
+    background-color: var(--primary-color);
+    border: none;
+  }
+  
+  .container.card{
+    background-color: white;
+  }
+  
+#overview .card-img-top {
+    max-width: 70px;
+    max-height: 115px;
+  }
+  
+  #overview .card {
+    padding: 30px;
+    border: none;
+    background: #F8FFFB;
+    transition: 0.3s ease-in;
+  }
+  
+  
+  #overview .card:hover {
+    background: wheat;
+    border-radius: 10px;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+  
+  }
+  .card-footer img {
+    width: 24px;
+    height: 24px;
+  }
+  .secondary-highlight {
+    width: 120px;
+    height: 8px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, var(--primary-color), #ffff00);
+  }
+  section {
+    margin-bottom: 65px;
+  }
+  a {
+    color: var(--white-color);
+    cursor: pointer;
+  }
+  
+  a:hover {
+    color: var(--primary-color);
+    text-decoration: none;
+  }
+  
+  .footer-bg {
+    background-color: #282531;
+  }
+  .card-text,
+.card-footer p {
+  color: #585859;
+}
+#courses h4,
+#testimonial h4 {
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: #413960;
+}
+/*** Footer Sign up Button ***/
+.btn-outline-success {
+  border-radius: 40px;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  ;
+}
+
+.btn-outline-success:hover {
+  background-color: var(--primary-color);
+}
+#footer{
+  background-color:gray;
+}
